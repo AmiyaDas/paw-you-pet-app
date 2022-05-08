@@ -1,0 +1,64 @@
+/* search bar*/
+
+.searchBar {
+    width: auto;
+    min-width: 14rem;
+
+    input {
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-left: none;
+        appearance: none;
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        width: 70%;
+    }
+
+    input:focus {
+        border: 1px solid #ced4da;
+        border-left: none;
+    }
+
+    button {
+        background-color: #fff;
+        border: 1px solid #ced4da;
+        border-right: none;
+        border-top-left-radius: 1.5rem;
+        border-bottom-left-radius: 1.5rem;
+        padding: 0.375rem;
+        line-height: 1.5;
+    }
+}
+
+/* nav bar */
+.bottomNavBar {
+    height: 5rem;
+    .mdIcon,
+    .lgIcon {
+        color: #622000;
+    }
+    .mdIcon {
+        font-size: 2.5rem;
+    }
+    
+    .lgIcon {
+        font-size: 3.5rem;
+    }
+}
+
+/* icons */
+
+.mdIcon {
+    font-size: 1.5rem;
+}
+
+.lgIcon {
+    font-size: 2.5rem;
+}
